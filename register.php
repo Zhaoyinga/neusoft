@@ -3,14 +3,10 @@
 <head>
 	<title>注册</title>
 	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.css">
-	<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.css.map">
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.theme.min.css">
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.theme.min.css.map">
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.css.map">
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css.map">
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/bootstrap-theme.min.css" rel="stylesheet">
+        <script src="js/bootstrap.js" type="text/javascript" ></script> 
+        <script src="js/npm.js" type="text/javascript" ></script> 
 </head>
 <body>
 	<div class="container" style="background: url(images/background.jpg);">
@@ -19,29 +15,29 @@
 		<div class="col-md-4 column">
 		</div>
 		<div class="col-md-4 column">
-			<form class="form-horizontal" role="form" action="php/registerPHP.php" style="margin-top: 50px">
+			<form class="form-horizontal" role="form" action="php/registerPHP.php" style="margin-top: 50px" method="post">
 				<div class="form-group">
-					 <label for="inputEmail3" class="col-sm-2 control-label">邮箱</label>
+					 <label for="inputEmail" class="col-sm-2 control-label">邮箱</label>
 					<div class="col-sm-10">
-						<input type="email" class="form-control" id="inputEmail3" name="name" />
+						<input type="email" class="form-control" id="inputEmail" name="name" />
 					</div>
 				</div>
 				<div class="form-group">
-					 <label for="inputPassword3" class="col-sm-2 control-label">年龄</label>
+					 <label for="inputage" class="col-sm-2 control-label">年龄</label>
 					<div class="col-sm-10">
-						<input type="text" class="form-control" id="inputPassword3" name="age" />
+						<input type="text" class="form-control" id="inputage" name="age" />
 					</div>
 				</div>
 				<div class="form-group">
-					 <label for="inputEmail3" class="col-sm-2 control-label">密码</label>
+					 <label for="inputPassword" class="col-sm-2 control-label">密码</label>
 					<div class="col-sm-10">
-						<input type="email" class="form-control" id="inputEmail3" name="password" />
+						<input type="password" class="form-control" id="inputPassword" name="password" />
 					</div>
 				</div>
 				<div class="form-group">
-					 <label for="inputEmail3" class="col-sm-2 control-label">性别</label>
+					 <label for="sex" class="col-sm-2 control-label">性别</label>
 					<div class="col-sm-10">
-						<input type="email" class="form-control" id="inputEmail3" name="sex" />
+						<input type="text" class="form-control" id="sex" name="sex" />
 					</div>
 				</div>
 				<div class="form-group">
